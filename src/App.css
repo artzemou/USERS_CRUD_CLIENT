@@ -83,12 +83,12 @@ input[type="date"]{
   .Tool-bar{
     position: absolute;
     top: -2rem;
-    right: 0;
+    right: 1rem;
   }
   button[type="submit"]{
     position: absolute;
     top: -2rem;
-    right: 48px;
+    right: calc(48px + 1rem);
   }
 
   .Create-user-form button[type="submit"]{
