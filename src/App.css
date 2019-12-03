@@ -68,3 +68,30 @@ input[type="date"]{
 .material-icons{
   color: #333333;
 }
+
+@media screen and (max-width: 960px) {
+  .User-item-content , .Create-user-form li {
+    width: 100%
+  }
+  .Create-user-form , .Sign-up-form {
+    flex-direction: column;
+  } 
+  .User-item{
+    position: relative;
+    margin-top: 3rem;
+  }
+  .Tool-bar{
+    position: absolute;
+    top: -2rem;
+    right: 0;
+  }
+  button[type="submit"]{
+    position: absolute;
+    top: -2rem;
+    right: 48px;
+  }
+
+  .Create-user-form button[type="submit"]{
+    right: 0;
+  }
+}
