@@ -4,7 +4,7 @@ import axios  from 'axios'
 export default function User(props) {
   let [user, setUser] = useState({})
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_URI}user/${props.userId}`)
+    axios.get(`${process.env.REACT_APP_URI}/user/${props.userId}`)
     .then(function (response) {
       // handle success
       setUser(response.data.result)
